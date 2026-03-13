@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background: #1a1a1a; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+  .profile-card { background: #fff; width: 350px; padding: 30px; border-radius: 25px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.5); }
+  .profile-img { width: 100px; height: 100px; background: #00d8d6; border-radius: 50%; margin: 0 auto 15px; }
+  h2 { margin: 10px 0; color: #333; font-size: 28px; }
+  .email { color: #00d8d6; font-weight: bold; margin-bottom: 20px; display: block; text-decoration: none; }
+  .skills { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
+  .skill-badge { background: #f0f0f0; padding: 5px 12px; border-radius: 15px; font-size: 12px; color: #555; }
+  input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+  button { width: 100%; padding: 12px; background: #00d8d6; border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; transition: 0.3s; }
+  button:hover { background: #00bcba; }
+  .footer { margin-top: 20px; font-size: 12px; color: #888; border-top: 1px solid #eee; padding-top: 15px; }
+</style>
+</head>
+<body>
+  <div class="profile-card"> 
+  <img src="https://i.supaimg.com/4fcbfd09-832f-433f-abf0-c5216a3a30bb/12fac0ba-4914-4c1b-bd2d-8d83e0c68b27.jpg" 
+class="profile-img" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <h2>Hasnain</h2>
+    <a href="mailto:hasnankhan4431@gmail.com" class="email">hasnankhan4431@gmail.com</a>
+    <div class="skills">
+      <span class="skill-badge">Web Developer</span>
+      <span class="skill-badge">UI Designer</span>
+      <span class="skill-badge">Freelancer</span>
+    </div>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <textarea placeholder="Project Details" rows="3" required></textarea>
+      <button type="submit">Hire Me Now</button>
+    </form>
+    <div class="footer">
+      <p>Regards: Milton Neil</p>
+      <p>© 2024 Hasnain Portfolio</p>
+    </div>
+  </div>
+</body>
+</html>
